@@ -1,0 +1,306 @@
+body{
+margin:0;
+font-family:Poppins,sans-serif;
+background:#f4f7fb;
+color:#1b1f2a;
+}
+
+/* HEADER */
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 30px;
+background:#fff;
+border-bottom:1px solid #e7ebf3;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.brand-name{
+font-family:Orbitron,sans-serif;
+font-size:30px;
+font-weight:700;
+}
+
+.brand-name span{
+color:#2b6fff;
+}
+
+.brand-tag{
+font-size:11px;
+color:#6b7280;
+margin-top:4px;
+}
+
+.nav a{
+margin-left:20px;
+text-decoration:none;
+color:#1b1f2a;
+font-size:14px;
+font-weight:500;
+}
+
+/* HERO */
+.hero{
+height:90vh;
+background:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1400&auto=format&fit=crop') center/cover;
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.overlay{
+position:absolute;
+inset:0;
+background:rgba(0,0,0,0.55);
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+max-width:850px;
+padding:20px;
+color:#fff;
+}
+
+.hero h1{
+font-size:52px;
+line-height:1.2;
+}
+
+.hero p{
+font-size:18px;
+margin-top:20px;
+line-height:1.7;
+}
+
+/* BUTTON */
+.main-btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 34px;
+background:#2b6fff;
+color:#fff;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+}
+
+/* SERVICES */
+.services{
+padding:80px 20px;
+text-align:center;
+}
+
+.services h2{
+font-size:38px;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:#fff;
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.06);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card h3{
+padding:20px 20px 10px;
+}
+
+.card p{
+padding:0 20px 25px;
+color:#5b6477;
+line-height:1.6;
+}
+
+/* ABOUT */
+.about{
+padding:80px 20px;
+background:#fff;
+}
+
+.about-content{
+display:flex;
+flex-wrap:wrap;
+gap:40px;
+align-items:center;
+max-width:1200px;
+margin:auto;
+}
+
+.about-text{
+flex:1;
+min-width:300px;
+}
+
+.about-text h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.about-text p{
+line-height:1.8;
+color:#5b6477;
+}
+
+.about-image{
+flex:1;
+min-width:300px;
+border-radius:18px;
+width:100%;
+}
+
+/* CONTACT */
+.contact{
+padding:80px 20px;
+text-align:center;
+}
+
+.contact h2{
+font-size:38px;
+margin-bottom:30px;
+}
+
+form{
+max-width:550px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+input{
+padding:15px;
+border-radius:10px;
+border:1px solid #d8ddea;
+font-size:15px;
+}
+
+button{
+padding:15px;
+border:none;
+background:#2b6fff;
+color:#fff;
+border-radius:10px;
+font-weight:600;
+cursor:pointer;
+font-size:15px;
+}
+
+/* DISCLAIMER */
+.disclaimer{
+padding:25px;
+background:#fff;
+text-align:center;
+font-size:12px;
+line-height:1.7;
+color:#666;
+border-top:1px solid #eee;
+}
+
+/* FOOTER */
+.footer{
+padding:40px 20px;
+text-align:center;
+background:#fff;
+border-top:1px solid #eee;
+font-size:13px;
+line-height:1.8;
+}
+
+/* SUPPORT PAGE */
+.support-hero{
+height:100vh;
+background:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1400&auto=format&fit=crop') center/cover;
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.support-content{
+position:relative;
+z-index:2;
+color:#fff;
+padding:20px;
+max-width:700px;
+}
+
+.support-content h1{
+font-size:52px;
+}
+
+.support-content p{
+font-size:18px;
+line-height:1.7;
+margin-top:20px;
+}
+
+.call-btn{
+display:inline-block;
+margin-top:30px;
+padding:16px 34px;
+background:#22c55e;
+color:#fff;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+}
+
+/* POLICY */
+.policy-page{
+max-width:900px;
+margin:auto;
+padding:80px 20px;
+line-height:1.9;
+}
+
+.policy-page h1{
+font-size:42px;
+margin-bottom:30px;
+}
+
+@media(max-width:768px){
+
+.hero h1,
+.support-content h1{
+font-size:36px;
+}
+
+.about-content{
+flex-direction:column;
+}
+
+.header{
+flex-direction:column;
+gap:15px;
+}
+
+.nav{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}
