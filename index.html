@@ -1,202 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Prime Tech Repair | USA Computer Support</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- NEW TECH FONT -->
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>Prime Tech Repair | Independent Technical Assistance</title>
 
-<style>
-body{
-margin:0;
-font-family:Poppins,sans-serif;
-background:#f6f8fc;
-color:#1b1f2a;
-}
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-/* HEADER */
-.header{
-background:#fff;
-padding:14px 20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-border-bottom:1px solid #e6e9f2;
-}
+<link rel="stylesheet" href="style.css">
 
-/* BRAND NEW TECH FONT + STYLE */
-.brand-name{
-font-family:'Orbitron', sans-serif;
-font-size:24px;
-font-weight:700;
-letter-spacing:1px;
-display:flex;
-align-items:center;
-gap:8px;
-}
-
-.brand-name span{
-color:#2b6fff;
-}
-
-/* SMALL LABEL */
-.brand-tag{
-font-size:10px;
-color:#6b7280;
-font-family:Poppins;
-margin-top:4px;
-}
-
-/* WRAP BRAND TEXT */
-.brand-wrapper{
-display:flex;
-flex-direction:column;
-line-height:1;
-}
-
-/* TOP PHONE */
-.top-phone{
-font-size:12px;
-color:#000;
-opacity:0.8;
-}
-
-/* HERO */
-.hero{
-text-align:center;
-padding:90px 20px;
-background:#fff;
-}
-
-.hero h1{
-font-size:40px;
-}
-
-.hero p{
-color:#5b6477;
-font-size:18px;
-}
-
-/* CTA */
-.cta{
-display:inline-block;
-margin-top:20px;
-background:#2b6fff;
-color:#fff;
-padding:14px 28px;
-border-radius:10px;
-text-decoration:none;
-font-weight:600;
-}
-
-/* GREEN CALL */
-.green{
-display:inline-block;
-margin-top:12px;
-background:#22c55e;
-color:#fff;
-padding:10px 15px;
-border-radius:8px;
-font-size:13px;
-text-decoration:none;
-}
-
-/* TRUST */
-.trust{
-background:#f0f4ff;
-padding:20px;
-text-align:center;
-color:#4b5568;
-}
-
-/* SERVICES */
-.section{
-padding:40px 20px;
-text-align:center;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:15px;
-}
-
-.card{
-background:#fff;
-padding:20px;
-border-radius:12px;
-border:1px solid #e6e9f2;
-}
-
-/* FOOTER */
-.footer{
-background:#fff;
-text-align:center;
-padding:20px;
-border-top:1px solid #e6e9f2;
-font-size:12px;
-color:#666;
-}
-</style>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<div class="header">
+<header class="header">
 
-<!-- BRAND TEXT ONLY (LOGO REMOVED) -->
-<div class="brand-wrapper">
+<div class="brand">
 <div class="brand-name">
 Prime <span>Tech Repair</span>
 </div>
-<div class="brand-tag">Computer Repair Experts USA</div>
+
+<div class="brand-tag">
+Independent Computer Support Services
+</div>
 </div>
 
-<div class="top-phone">☎ (888) 498-9259</div>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="support.html">Support</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+</nav>
 
-</div>
+</header>
 
-<!-- HERO -->
-<div class="hero">
-<h1>Professional Computer Repair Services</h1>
-<p>Fast, Secure & Trusted IT Support Across the USA</p>
+<section class="hero">
 
-<a class="cta" href="tel:8884989259">
-Request Instant Support
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Professional Computer Repair & Technical Assistance</h1>
+
+<p>
+Fast and reliable independent support services for computers,
+software troubleshooting, performance optimization, and technical assistance.
+</p>
+
+<a href="#contact" class="main-btn">
+Request Assistance
 </a>
 
-<br>
-
-<a class="green" href="tel:8884989259">
-📞 Call Now (888) 498-9259
-</a>
 </div>
 
-<!-- TRUST -->
-<div class="trust">
-✔ Trusted IT Support • ✔ Fast Response • ✔ Secure Service
-</div>
+</section>
 
-<!-- SERVICES -->
-<div class="section">
+<section class="services">
+
 <h2>Our Services</h2>
 
-<div class="cards">
-<div class="card">Virus Removal</div>
-<div class="card">PC Repair</div>
-<div class="card">Speed Optimization</div>
-<div class="card">Data Recovery</div>
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop">
+<h3>Computer Diagnostics</h3>
+<p>Professional troubleshooting and system analysis assistance.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
+<h3>Software Assistance</h3>
+<p>Operating system and application troubleshooting support.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop">
+<h3>Performance Optimization</h3>
+<p>Improve computer speed, responsiveness, and stability.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop">
+<h3>Device Setup Assistance</h3>
+<p>Help with printers, Wi-Fi configuration, and setup support.</p>
 </div>
 
 </div>
 
-<!-- FOOTER -->
-<div class="footer">
-© 2026 Prime Tech Repair | USA Computer Support
+</section>
+
+<section class="about">
+
+<div class="about-content">
+
+<div class="about-text">
+
+<h2>About Prime Tech Repair</h2>
+
+<p>
+Prime Tech Repair provides independent computer repair and technical assistance services
+for home and business users across the United States.
+Our focus is on transparent communication, customer support, and professional service.
+</p>
+
+<p>
+We assist with troubleshooting, software support, computer maintenance,
+and general technical guidance.
+</p>
+
 </div>
+
+<img class="about-image"
+src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Request Support</h2>
+
+<form action="support.html">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="text" placeholder="Describe Your Issue" required>
+
+<button type="submit">
+Continue To Support Options
+</button>
+
+</form>
+
+</section>
+
+<section class="disclaimer">
+
+Prime Tech Repair is an independent computer repair and technical support provider
+and is not affiliated with or endorsed by any third-party brands unless explicitly stated.
+
+</section>
+
+<footer class="footer">
+
+<p>© 2026 Prime Tech Repair</p>
+
+<p>Email: support@primetechrepair.store</p>
+
+<p>Business Hours: Monday - Saturday | 8 AM - 8 PM EST</p>
+
+</footer>
 
 </body>
 </html>
