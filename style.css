@@ -302,5 +302,21 @@ gap:15px;
 flex-wrap:wrap;
 justify-content:center;
 }
+.call-btn{
+    display:inline-block;
+    padding:10px 24px;
+    background:#32CD32;
+    color:#ffffff;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    transition:0.3s ease;
+    box-shadow:0 4px 12px rgba(50,205,50,0.25);
+}
 
+.call-btn:hover{
+    background:#28a428;
+    transform:translateY(-2px);
+}
 }
